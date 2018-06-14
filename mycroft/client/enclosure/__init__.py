@@ -33,7 +33,7 @@ from mycroft.messagebus.client.ws import WebsocketClient
 from mycroft.messagebus.message import Message
 from mycroft.util import play_wav, create_signal, connected, \
     wait_while_speaking
-from mycroft.util.audio_test import record
+from mycroft.audio.audio_test import record
 from mycroft.util.log import LOG
 from queue import Queue
 
